@@ -2,11 +2,24 @@
   "name": "moon-time",
   "version": "1.0.7",
   "description": "moon-time is a component that converts the solar calendar to the lunar calendar (Chinese lunar calendar), it is very simple to use。",
-  "main": "calculate.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
-  "keywords": ["moon","solar calendar","lunar calendar"],
+  "keywords": [
+    "moon",
+    "solar calendar",
+    "lunar calendar"
+  ],
   "author": "liujinshuai",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Liu-Jinshuai/moon-time.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
