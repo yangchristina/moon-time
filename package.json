@@ -1,7 +1,7 @@
 {
-  "name": "moon-time",
-  "version": "1.0.7",
-  "description": "moon-time is a component that converts the solar calendar to the lunar calendar (Chinese lunar calendar), it is very simple to use。",
+  "name": "moon-time-ts",
+  "version": "0.0.0",
+  "description": "moon-time is a component that converts the solar calendar (Gregorian) to the lunar calendar (Chinese lunar calendar), it is very simple to use。",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -11,12 +11,13 @@
   "keywords": [
     "moon",
     "solar calendar",
-    "lunar calendar"
+    "lunar calendar",
+    "gregorian calendar"
   ],
-  "author": "liujinshuai",
+  "author": "yangchristina",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Liu-Jinshuai/moon-time.git"
+    "url": "https://github.com/yangchristina/moon-time.git"
   },
   "license": "ISC",
   "devDependencies": {
