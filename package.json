@@ -4,6 +4,9 @@
   "description": "moon-time is a component that converts the solar calendar to the lunar calendar (Chinese lunar calendar), it is very simple to use。",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
